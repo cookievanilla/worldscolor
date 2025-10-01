@@ -1,0 +1,23 @@
+worlds:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
+colors:
+  world: 'GREEN'
+  world_nether: 'RED'
+  world_the_end: 'LIGHT_PURPLE'
+settings:
+  colors-in-chat:
+    enable: true
+    format: '%color%%player%&f: %text%'
+  colors-in-connection-message:
+    join:
+      enable: true
+      format: '%color%%player% joined the game'
+    quit:
+      enable: true
+      format: '%color%%player% left the game'
+messages:
+  config-reload-successfully: '&aКонфиг успешно перезагружен!'
+  errors:
+    no-arguments: '&cУкажите аргументы для команды!'

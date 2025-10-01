@@ -1,0 +1,20 @@
+name: WorldsColor
+version: ${project.version}
+main: cv.cookiev.worldscolor.WorldsColor
+api-version: 1.21
+authors: [ cookiev ]
+description: Change your prefix if you change world
+softdepend:
+  - PlaceholderAPI
+folia-supported: true
+
+commands:
+  worldscolor:
+    description: Plugin settings
+    usage: §c/worldscolor <reload>
+    permission: worldscolor.command
+
+permissions:
+  worldscolor.command:
+    default: op
+    description: for command /worldscolor
