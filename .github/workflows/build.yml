@@ -12,3 +12,8 @@ jobs:
           distribution: 'temurin'
       - name: Build
         run: mvn -B package --file pom.xml
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WorldsColor
+          path: target/*.jar
